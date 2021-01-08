@@ -1,0 +1,79 @@
+/* Navigation-wrapper */
+.navigation-wrapper {
+    background-color:black;
+    color: #cbcbcb;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 190px;
+    height: 100%;
+    margin-right: 75px;
+    padding: 1rem;
+}
+
+.navigation-wrapper > .center-column {
+    width: 1000px;
+    height: 71px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: larger;
+}
+
+.navigation-wrapper > .center-column h1 {
+    color: #cea135;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.links-wrapper  > .drop-menu > .Spark {
+    color: darkgray;
+}
+
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    justify-content: space-between;
+}
+
+.links-wrapper > .nav-link {
+    width: 80px;
+}
+
+.links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-wrapper > .drop-menu > .btn {
+  font-size: x-large;
+}
+
+.right-column {
+    width: 0px;
+    height: 61px;
+    display: grid;
+    margin-left: 77px;
+}
+
+.right-column > .action-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.right-column > .action-menu > .search {
+    width: 50px;
+}
+
+.right-column  > .action-menu > .search i {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+

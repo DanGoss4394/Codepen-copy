@@ -1,0 +1,36 @@
+.footer {
+    background-color: #4c4f5a;
+    height: 100%;   
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    width: 100%;
+}
+
+.footer  > .footer-box {
+    width: 100%;
+    outline: 5px solid darkgray;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.footer > .footer-box > .foot-one {
+    outline: 2px solid darkgray;
+}
+
+.footer > .footer-box > .foot-two {
+    outline: 2px solid darkgray;
+}
+
+.footer > .footer-box > .foot-three {
+    outline: 2px solid darkgray;
+}
+
+.footer > .footer-box > .foot-four {
+    outline: 2px solid darkgray;
+}
+
+.footer > .footer-box p {
+    font-size: x-large;
+    padding: 50px;
+    margin: 50px;
+}

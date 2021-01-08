@@ -1,0 +1,61 @@
+/* Body */
+.Headline {
+    background-color: #4c4f5a;
+}
+
+.Headline > .width-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    display: grid;
+    width: 700px;
+    justify-content: center;
+    grid-template-rows: 0.3fr;
+    padding: 42px;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.text h1 strong {
+    font-weight: bold;
+}
+
+.text h1 {
+    line-height: 1.1;
+    font-size: 3.2rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 300;
+}
+
+.text i {
+    color: #cea135;
+}
+
+
+.text p {
+    font-size: 2.5rem;
+    color: #c7c9d3;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+    margin: 0px;
+    color: white;
+}
+
+.web-page {
+    display: flex;
+}
+
+.web-page img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-button {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 600px;
+}
